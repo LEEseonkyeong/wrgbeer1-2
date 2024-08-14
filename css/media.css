@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    /* header 시작 */
+    .head_inner {
+        width: 90%;
+        height: 80px;
+    }
+
+    .head_inner .top_menu {
+        display: none;
+    }
+
+    .head_inner .main {
+        padding: 10px 0;
+    }
+
+    .head_inner .main .logo {
+        margin: 0 auto;
+    }
+
+    .head_inner .main .logo a {
+        width: 53px;
+        height: 60px;
+        background: url("../images/logo_main.png") no-repeat center / cover;
+    }
+
+    .head_inner .main nav {
+        display: none;
+    }
+
+    .m_nav {
+        /* display: block; */
+    }
+
+    .menu_toggle_btn {
+        display: block;
+    }
+
+    .m_business {
+        display: flex;
+    }
+
+    /* header 끝 */
+
+    /* section 시작 */
+    /* slide 시작 */
+    .slide {
+        height: 349px;
+        display: flex;
+        align-items: center;
+        height: auto;
+        overflow: hidden;
+        border: 1px solid red;
+    }
+    .slide div{
+        height: 400px;
+    }
+
+    .slide div img,
+    .slide .slide_03_mov,
+    .slide .slide_03_mov video {
+        width: 100%;
+        height: auto;
+    }
+
+    .slide .slide_03_mov h2 {
+        display: none;
+    }
+
+    .slide .slide_03_mov p {
+        width: 60%;
+    }
+
+    .slide .slick-dots {
+        bottom: 25px;
+    }
+
+    .slide .slick-dots li {
+        margin: 0 6px;
+    }
+
+    .slide .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+
+    .slide .slick-arrow {
+        display: none;
+    }
+
+    /* slide 끝 */
+
+    /* place_search 시작 */
+    .place_search {
+        width: 90%;
+        padding: 50px 0;
+        margin: 0 auto;
+    }
+
+    .place_search h4 {
+        font-size: 18px;
+    }
+
+    .place_search .ps_copy {
+        margin: 30px 0 20px;
+    }
+
+    .place_search .ps_copy img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .place_search .ps_copy p {
+        font-size: 20px;
+    }
+
+    .place_search .ps_box {
+        width: 90%;
+    }
+
+    .place_search .ps_box input {
+        width: 75%;
+    }
+
+    .place_search>p {
+        margin: 20px 0 30px;
+        font-size: 12px;
+    }
+
+    .place_search .ps_button a {
+        font-size: 20px;
+    }
+
+    /* place_search 끝 */
+
+    /* menu 시작 */
+    .menu {
+        padding: 50px 0;
+        margin: 0 auto;
+    }
+
+    .menu .m_inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu .m_inner .m_new_slide {
+        margin-left: 0;
+    }
+
+    .menu .m_inner .m_new_slide h4 {
+        margin-top: 80px;
+    }
+
+    .menu .m_inner .m_best_slide .m_slide_01 .slick-arrow.slick-prev {
+        left: calc(50% - 180px);
+    }
+
+    .menu .m_inner .m_best_slide .m_slide_01 .slick-arrow.slick-next {
+        right: calc(50% - 180px);
+    }
+
+    .menu .m_inner .m_new_slide .m_slide_02 .slick-arrow.slick-prev {
+        left: calc(50% - 180px);
+    }
+
+    .menu .m_inner .m_new_slide .m_slide_02 .slick-arrow.slick-next {
+        right: calc(50% - 180px);
+    }
+
+    /* menu 끝 */
+
+    /* board 시작 */
+    .board{
+        width: 80%;
+        height: 1100px;
+        padding: 50px 0;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+    }
+    
+    .board h3{
+        font-size: 32px;
+    }
+
+    .board .b_inner{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .board .b_inner .b_commu{
+        width: 100%;
+    }
+
+    .b_business{
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .b_business form{
+        flex-direction: column;
+    }
+
+    .b_business form>ul {
+        width: 100%;
+    }
+
+    .b_business .business_info li{
+        /* margin: 0; */
+    }
+
+    .b_business .business_info li div{
+        font-size: 13px;
+    }
+
+
+    /* board 끝 */
+    /* section 끝 */
+
+    /* footer 시작 */
+    #footer {
+        padding: 50px 0 20px;
+    }
+
+    .f_inner {
+        width: 100%;
+    }
+
+    .f_inner .f_list {
+        margin: 30px 0;
+        /* border: 1px solid red; */
+    }
+
+    .f_inner>ul>li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .f_inner>ul>li>a {
+        /* margin: 0 10px; */
+        font-size: 12px;
+    }
+
+    /* footer 끝 */
+
+}
+
+/* 768px */

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* 리셋 CSS */
+/* 리셋 CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+input::-webkit-input-placeholder {
+    color: #8E8479;
+    font-family: 'Pretendard-Regular';
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+    font-size: 16px;
+    color: #282522;
+}
+
+.h3_title {
+    display: inline-block;
+    padding: 3px 20px;
+    line-height: 48px;
+    background-color: #E28100;
+    color: #F9F5F3;
+    font-size: 48px;
+}
+
+.h4_title {
+    padding: 2px 20px;
+    line-height: 40px;
+    background-color: #E28100;
+    color: #F9F5F3;
+    font-size: 24px;
+}
+
